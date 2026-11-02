@@ -1,0 +1,8 @@
+T,norm_A,kappa,design_status,analytic_status,design_ok,analytic_ok,needs_repair
+12,0.9,0.1,OK,UNCERTIFIED,true,false,true
+14,0.9,0.1,ERROR: designer produced no finite certified point,UNCERTIFIED,false,false,true
+15,0.9,0.0,OK,UNCERTIFIED,true,false,true
+15,0.9,0.1,OK,UNCERTIFIED,true,false,true
+18,0.9,0.0,ERROR: designer produced no finite certified point,OK,false,true,true
+19,0.9,0.0,ERROR: designer produced no finite certified point,OK,false,true,true
+20,0.9,0.1,OK,UNCERTIFIED,true,false,true

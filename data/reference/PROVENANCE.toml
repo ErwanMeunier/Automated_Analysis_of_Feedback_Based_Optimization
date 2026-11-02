@@ -1,0 +1,27 @@
+snapshot_date = "2026-11-02"
+source_repository = "PEP_Control"
+source_git_commit = "dc788a32acaf77cfe29f4b76facd429a0b730d39"
+source_julia_version = "1.12.6"
+source_solver = "MOSEK"
+primary_kappa = 0.0
+supplementary_kappa = 0.1
+L_f = 1.0
+notes = "Original Arrow bytes are preserved. Stable-domain filtering and certified correction overlays occur only when loading the data."
+
+[[files]]
+file = "merged_sweep.arrow"
+source = "Julia/results/full_20261015_161939/merged_sweep_T003_040.arrow"
+sha256 = "7a58ca70b96b099e29fb0b7c6321679e756c1a924f5914be037de5f9c2d2dc19"
+rows = 46200
+
+[[files]]
+file = "merged_design.arrow"
+source = "Julia/results/paper_20261101_t50_corrected/merged_design.arrow"
+sha256 = "f6edbb16ae6686933b0173c8385c78b7af173b78ec90d80b0a0d9a06d65b9378"
+rows = 484
+
+[[files]]
+file = "merged_analytic_theorem1.arrow"
+source = "Julia/results/paper_20261101_t50_corrected/merged_analytic_theorem1_T003_050.arrow"
+sha256 = "56893cbd818aa0605eef0d57fda422f9cef05da0f73eace52db2a18e2f7c7075"
+rows = 440

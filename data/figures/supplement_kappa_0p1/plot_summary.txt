@@ -1,0 +1,43 @@
+run = results\package_figures\tables\merged_sweep.arrow
+raw_rows = 42000
+expected_rows = nothing
+expected_alpha_per_group = 100
+observed_groups = 420
+complete_groups = 420
+valid_rows_in_complete_groups = 26830
+selected_kappa = 0.1
+matplotlib_colormap = viridis
+normalized_worst_cases = true
+alpha_sweep_normalized = false
+sweep_ymax = 2.0
+sweep_xmax = 1.0
+T_plot_horizons = all
+split_horizon_panels = true
+titles_enabled = false
+title_font_size = 16.0
+axis_font_size = 18.0
+legend_font_size = 13.0
+tick_font_size = 13.0
+star_size = 7.0
+line_width = 4.0
+worst_case_normalization = W(alpha,T) / W(0,T), W(0,T) = rho^2 / (2(1-L_A)^2), rho = R_u; the alpha-sweep figure is excluded
+partial = false
+design_run = results\package_figures\tables\merged_design.arrow
+valid_FOM_design_rows = 437
+matched_FOM_design_groups = 417
+design_only_groups = 20
+analytical_mode = theorem1
+analytical_from_PEP_run = results\package_figures\tables\merged_analytic_theorem1.arrow
+valid_analytical_from_PEP_rows = 435
+matched_analytical_from_PEP_groups = 433
+include_uncertified_analytic = false
+mark_uncertified_analytic = false
+selected_best_point_rows = 219
+uncertified_analytic_points = 0
+best-point source counts = 1×2 DataFrame
+ Row │ best_source  nrow
+     │ String       Int64
+─────┼────────────────────
+   1 │ FOM design     219
+analytical curves use the sharp uniform Theorem-1 step size and a fresh class-PEP solve.
+Theorem 1 gives the same alpha as the former formula; its performance here is evaluated at the exact alpha rather than at the nearest sweep sample.

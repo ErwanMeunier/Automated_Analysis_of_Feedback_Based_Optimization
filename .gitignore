@@ -1,0 +1,11 @@
+/results/
+*.tmp
+*.log
+*.out
+*.err
+*.lic
+.env
+.env.*
+.julia/
+core
+core.*

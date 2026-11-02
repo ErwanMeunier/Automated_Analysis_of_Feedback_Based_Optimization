@@ -1,0 +1,7 @@
+* text=auto
+*.jl text eol=lf
+*.sh text eol=lf
+*.slurm text eol=lf
+*.arrow -text
+*.pdf -text
+*.png -text

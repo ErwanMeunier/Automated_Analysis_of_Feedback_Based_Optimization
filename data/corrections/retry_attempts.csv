@@ -1,0 +1,10 @@
+T,norm_A,kappa,kind,solver,status,alpha,value,relative_gap,scalar_violation,cone_violation,elapsed_seconds,message,recorded_utc
+11,0.9,0.0,design,mosek,OK,0.0011968050416863326,20.685643899875323,5.0909581848924146e-8,6.418577602751441e-8,1.0583215940679485e-7,44.78399991989136,SLOW_PROGRESS,2026-11-02T14:50:31.720
+12,0.9,0.1,analytic,mosek,UNCERTIFIED,0.0009523809523809517,21.351969376512656,1.5491225590578728e-6,2.60690182218859e-7,3.5149084549084026e-6,3.675999879837036,SLOW_PROGRESS,2026-11-02T14:50:36.102
+14,0.9,0.1,analytic,not run,DEFERRED,NaN,NaN,NaN,NaN,NaN,0.0,outside bounded retry horizon/count,2026-11-02T14:50:36.150
+14,0.9,0.1,design,not run,DEFERRED,NaN,NaN,NaN,NaN,NaN,0.0,outside bounded retry horizon/count,2026-11-02T14:50:36.182
+15,0.9,0.0,analytic,not run,DEFERRED,NaN,NaN,NaN,NaN,NaN,0.0,outside bounded retry horizon/count,2026-11-02T14:50:36.185
+15,0.9,0.1,analytic,not run,DEFERRED,NaN,NaN,NaN,NaN,NaN,0.0,outside bounded retry horizon/count,2026-11-02T14:50:36.185
+18,0.9,0.0,design,not run,DEFERRED,NaN,NaN,NaN,NaN,NaN,0.0,outside bounded retry horizon/count,2026-11-02T14:50:36.185
+19,0.9,0.0,design,not run,DEFERRED,NaN,NaN,NaN,NaN,NaN,0.0,outside bounded retry horizon/count,2026-11-02T14:50:36.218
+20,0.9,0.1,analytic,not run,DEFERRED,NaN,NaN,NaN,NaN,NaN,0.0,outside bounded retry horizon/count,2026-11-02T14:50:36.243

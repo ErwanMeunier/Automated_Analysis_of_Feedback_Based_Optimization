@@ -1,0 +1,18 @@
+# Small end-to-end check; this does not replace the full paper experiment.
+horizons = [3]
+kappas = [0.0, 0.1]
+A_lo = 0.3
+A_hi = 0.3
+n_A = 1
+alpha_lo = 0.01
+alpha_hi = 0.4
+n_alpha = 4
+L_f = 1.0
+norm_B = 1.0
+R_x = 1.0
+ratio_radius = 1.0
+design_iters = 2
+facial_reduction = "explicit"
+cert_tol = 0.000003
+gap_tol = 0.00001
+fd_rel_step = 0.0001
