@@ -33,7 +33,7 @@ The command `julia --project=. scripts/inspect_results.jl` exports all three sta
 
 ## Columns
 
-All tables share `T`, `n_steps=T+1`, `kappa=mu_f/L_f`, `mu_f`, `L_f`, `norm_A`, `norm_B`, `R_x`, `R_u`, `status`, and `solve_time` in seconds.
+All tables share `T`, `n_steps=T`, `kappa=mu_f/L_f`, `mu_f`, `L_f`, `norm_A`, `norm_B`, `R_x`, `R_u`, `status`, and `solve_time` in seconds.
 
 | Table | Additional useful columns |
 |---|---|

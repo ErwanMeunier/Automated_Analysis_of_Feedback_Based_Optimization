@@ -6,7 +6,7 @@ The primary case is κ_f=0 (smooth convex); κ_f=0.1 is supplementary. The suppl
 
 The normalized step size is α=L_f L_B² η, where η is the physical step size. Convert a normalized objective value back by multiplying by L_f R_x². In particular, physical L_f=10 corresponds to η=α/10 when L_B=1. The archived calculations and the plotted step-size axes use normalized L_f=1.
 
-The main metric is **f(G u_T) − f(x_*)**, with G=(I−A)⁻¹B. It is not the transient state gap f(x_T)−f(x_*). The implementation keeps T+1 step-size coefficients according to its trajectory indexing. The scripts and figures use the stored `T` column without shifting it.
+The main metric is **f(G u_T) − f(x_*)**, with G=(I−A)⁻¹B. It is not the transient state gap f(x_T)−f(x_*). The implementation keeps T step-size coefficients according to its trajectory indexing. The scripts and figures use the stored `T` column without shifting it.
 
 Best-point and horizon plots use W(α,T)/W(0,T), where W(0,T)=ρ²/[2(1−L_A)²] in normalized units. The α-sweep remains in raw regret units. The uniform analytical step size is
 

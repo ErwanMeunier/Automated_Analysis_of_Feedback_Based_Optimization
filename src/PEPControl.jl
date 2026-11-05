@@ -27,7 +27,7 @@ export ControlInstance, nsteps, kappa, build_pep_control, compile_control,
 """
     ControlInstance(; T, norm_A, norm_B, R_x, R_u, mu_f, L_f)
 
-One PEP-control instance: horizon `T` (the method performs `T+1` updates),
+One PEP-control instance: horizon `T` (the method performs `T` updates),
 operator norms `‖A‖ ≤ norm_A`, `‖B‖ ≤ norm_B`, initial radii `R_x`, `R_u`,
 and the objective class `F_{mu_f, L_f}`.
 """
@@ -76,7 +76,7 @@ end
 
 PEP model of the control-design loop: LTI dynamics `x⁺ = A x + B u`, inverse
 gradient mapping `g_inv = A' g_inv + g`, and control update
-`u⁺ = u − α_t B' g_inv_t`. Maximizes `f(x_T) − f_*`.
+`u⁺ = u − α_t B' g_inv_t`. Maximizes `f(Gu_T) − f_*`.
 """
 
 function build_pep_control(inst::ControlInstance)
